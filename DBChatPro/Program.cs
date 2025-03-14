@@ -8,8 +8,10 @@ using Microsoft.Extensions.Azure;
 using Microsoft.Identity.Client.Platforms.Features.DesktopOs.Kerberos;
 using MudBlazor;
 using MudBlazor.Services;
+using Microsoft.AspNetCore.Components;
 using OpenAI;
 using System.ClientModel;
+//using Microsoft.AspNetCore.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
